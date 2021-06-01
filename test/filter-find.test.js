@@ -91,13 +91,12 @@ test('should return all fruits that cost more than 2', (expect) => {
 test('should return the cheese', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = [{ 
+    const expected = { 
         id: 'cheese',
         price: 7,
         quantity: 4,
         category: 'dairy'
-    }
-    ];
+    };
     
     //Act 
     // Call the function you're testing and set the result to a const
